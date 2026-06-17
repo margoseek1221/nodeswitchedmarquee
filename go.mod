@@ -1,3 +1,3 @@
-module health_checker_79d8b4
+module health_checker_b2dfdf
 
 go 1.21

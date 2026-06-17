@@ -8,7 +8,7 @@ import (
 )
 
 const (
-	appName = "health-checker-79d8b4"
+	appName = "health-checker-b2dfdf"
 	version = "1.0.0"
 )
 
